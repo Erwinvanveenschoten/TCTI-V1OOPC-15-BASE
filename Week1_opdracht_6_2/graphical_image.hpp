@@ -6,8 +6,12 @@
 class graphical_image {
 private:
     window &w;
+    int trainsize;
 public:
-    graphical_image(window &w);
+    graphical_image(window &w, int trainsize):
+    w (w),
+    trainsize (trainsize)
+{}
     void draw();
 };
 

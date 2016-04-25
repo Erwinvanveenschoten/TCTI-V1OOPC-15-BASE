@@ -121,6 +121,6 @@ void window::clear(){
 }
 
 void window::draw( int x, int y ){
-   print_pixel( hdc, x, y, scale, RGB( 0xFF, 0x99, 0xAA ) );
+   print_pixel( hdc, x, y, scale, RGB( 0x00, 0x00, 0x00 ) );
 }
 
