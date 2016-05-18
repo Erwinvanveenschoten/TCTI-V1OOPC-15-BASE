@@ -1,0 +1,155 @@
+\hypertarget{classvector}{}\section{vector Class Reference}
+\label{classvector}\index{vector@{vector}}
+
+
+2D integer vector A\+DT  
+
+
+
+
+{\ttfamily \#include $<$vector.\+hpp$>$}
+
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{classvector_a7fa147d3199381b9d8b32753bd1a6968}{vector} (int x, int y)
+\begin{DoxyCompactList}\small\item\em Default constructor. \end{DoxyCompactList}\item 
+\hyperlink{classvector}{vector} \hyperlink{classvector_a2ab7f62262c6f0c6ade3bd1879e6001e}{operator+} (const \hyperlink{classvector}{vector} \&rhs) const 
+\item 
+\hyperlink{classvector}{vector} \& \hyperlink{classvector_a401c12597814627f350a8cd663b6dba5}{operator+=} (const \hyperlink{classvector}{vector} \&rhs)
+\begin{DoxyCompactList}\small\item\em += operator for two vectors \end{DoxyCompactList}\item 
+\hyperlink{classvector}{vector} \hyperlink{classvector_ad9596a53b6aef33bbddfa7b9b4b17f09}{operator-\/} (const \hyperlink{classvector}{vector} \&rhs) const 
+\item 
+\hyperlink{classvector}{vector} \& \hyperlink{classvector_a9229a3d50eae5ce544f81419d49540ce}{operator-\/=} (const \hyperlink{classvector}{vector} \&rhs)
+\begin{DoxyCompactList}\small\item\em -\/= operator for two vectors \end{DoxyCompactList}\item 
+\hyperlink{classvector}{vector} \hyperlink{classvector_a925d23adbfbbbc9659e10d18cc4dba45}{operator$\ast$} (const \hyperlink{classvector}{vector} \&rhs) const 
+\item 
+\hyperlink{classvector}{vector} \& \hyperlink{classvector_ad7dba928c0f8e3bef217dd1d97ebfb8f}{operator$\ast$=} (const \hyperlink{classvector}{vector} \&rhs)
+\begin{DoxyCompactList}\small\item\em $\ast$= operator for two vectors \end{DoxyCompactList}\item 
+\hyperlink{classvector}{vector} \hyperlink{classvector_af30f2db8e242b76c98e17bc93958aaf8}{operator/} (const \hyperlink{classvector}{vector} \&rhs) const 
+\begin{DoxyCompactList}\small\item\em / operator for two vectors \end{DoxyCompactList}\item 
+\hyperlink{classvector}{vector} \& \hyperlink{classvector_a0f08508b116517889088c06c86f51a2b}{operator/=} (const \hyperlink{classvector}{vector} \&rhs)
+\begin{DoxyCompactList}\small\item\em /= operator for two vectors \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+int {\bfseries x}\hypertarget{classvector_a0403eb3aea23a3009e276fba1d317046}{}\label{classvector_a0403eb3aea23a3009e276fba1d317046}
+
+\item 
+int {\bfseries y}\hypertarget{classvector_aad6de640298eae97ca0a094db5aff477}{}\label{classvector_aad6de640298eae97ca0a094db5aff477}
+
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+2D integer vector A\+DT 
+
+This is a 2D vector A\+DT that stores its two compnents as integers. The x and y components are public attributes. The appropriate constructors and operators are provided. 
+
+\subsection{Constructor \& Destructor Documentation}
+\index{vector@{vector}!vector@{vector}}
+\index{vector@{vector}!vector@{vector}}
+\subsubsection[{\texorpdfstring{vector(int x, int y)}{vector(int x, int y)}}]{\setlength{\rightskip}{0pt plus 5cm}vector\+::vector (
+\begin{DoxyParamCaption}
+\item[{int}]{x, }
+\item[{int}]{y}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [inline]}}\hypertarget{classvector_a7fa147d3199381b9d8b32753bd1a6968}{}\label{classvector_a7fa147d3199381b9d8b32753bd1a6968}
+
+
+Default constructor. 
+
+This constructor initializes the x and y attributes 
+
+\subsection{Member Function Documentation}
+\index{vector@{vector}!operator$\ast$@{operator$\ast$}}
+\index{operator$\ast$@{operator$\ast$}!vector@{vector}}
+\subsubsection[{\texorpdfstring{operator$\ast$(const vector \&rhs) const }{operator*(const vector &rhs) const }}]{\setlength{\rightskip}{0pt plus 5cm}{\bf vector} vector\+::operator$\ast$ (
+\begin{DoxyParamCaption}
+\item[{const {\bf vector} \&}]{rhs}
+\end{DoxyParamCaption}
+) const}\hypertarget{classvector_a925d23adbfbbbc9659e10d18cc4dba45}{}\label{classvector_a925d23adbfbbbc9659e10d18cc4dba45}
+
+\begin{DoxyItemize}
+\item operator for two vectors This operator multiplies the rhs with the lhs. The result is stored into a new variable of the vector class. 
+\end{DoxyItemize}\index{vector@{vector}!operator$\ast$=@{operator$\ast$=}}
+\index{operator$\ast$=@{operator$\ast$=}!vector@{vector}}
+\subsubsection[{\texorpdfstring{operator$\ast$=(const vector \&rhs)}{operator*=(const vector &rhs)}}]{\setlength{\rightskip}{0pt plus 5cm}{\bf vector} \& vector\+::operator$\ast$= (
+\begin{DoxyParamCaption}
+\item[{const {\bf vector} \&}]{rhs}
+\end{DoxyParamCaption}
+)}\hypertarget{classvector_ad7dba928c0f8e3bef217dd1d97ebfb8f}{}\label{classvector_ad7dba928c0f8e3bef217dd1d97ebfb8f}
+
+
+$\ast$= operator for two vectors 
+
+This operator multiplies the rhs with the lhs. The result is stored into lhs variable of the vector class. \index{vector@{vector}!operator+@{operator+}}
+\index{operator+@{operator+}!vector@{vector}}
+\subsubsection[{\texorpdfstring{operator+(const vector \&rhs) const }{operator+(const vector &rhs) const }}]{\setlength{\rightskip}{0pt plus 5cm}{\bf vector} vector\+::operator+ (
+\begin{DoxyParamCaption}
+\item[{const {\bf vector} \&}]{rhs}
+\end{DoxyParamCaption}
+) const}\hypertarget{classvector_a2ab7f62262c6f0c6ade3bd1879e6001e}{}\label{classvector_a2ab7f62262c6f0c6ade3bd1879e6001e}
+
+\begin{DoxyItemize}
+\item operator for two vectors This operator adds the rhs to the lhs. The result is stored into a new variable of the vector class. 
+\end{DoxyItemize}\index{vector@{vector}!operator+=@{operator+=}}
+\index{operator+=@{operator+=}!vector@{vector}}
+\subsubsection[{\texorpdfstring{operator+=(const vector \&rhs)}{operator+=(const vector &rhs)}}]{\setlength{\rightskip}{0pt plus 5cm}{\bf vector} \& vector\+::operator+= (
+\begin{DoxyParamCaption}
+\item[{const {\bf vector} \&}]{rhs}
+\end{DoxyParamCaption}
+)}\hypertarget{classvector_a401c12597814627f350a8cd663b6dba5}{}\label{classvector_a401c12597814627f350a8cd663b6dba5}
+
+
++= operator for two vectors 
+
+This operator adds the rhs to the lhs. The result is stored into lhs variable of vector class. \index{vector@{vector}!operator-\/@{operator-\/}}
+\index{operator-\/@{operator-\/}!vector@{vector}}
+\subsubsection[{\texorpdfstring{operator-\/(const vector \&rhs) const }{operator-(const vector &rhs) const }}]{\setlength{\rightskip}{0pt plus 5cm}{\bf vector} vector\+::operator-\/ (
+\begin{DoxyParamCaption}
+\item[{const {\bf vector} \&}]{rhs}
+\end{DoxyParamCaption}
+) const}\hypertarget{classvector_ad9596a53b6aef33bbddfa7b9b4b17f09}{}\label{classvector_ad9596a53b6aef33bbddfa7b9b4b17f09}
+
+\begin{DoxyItemize}
+\item operator for two vectors This operator substracts the rhs from the lhs. The result is stored into a new variable of the vector class. 
+\end{DoxyItemize}\index{vector@{vector}!operator-\/=@{operator-\/=}}
+\index{operator-\/=@{operator-\/=}!vector@{vector}}
+\subsubsection[{\texorpdfstring{operator-\/=(const vector \&rhs)}{operator-=(const vector &rhs)}}]{\setlength{\rightskip}{0pt plus 5cm}{\bf vector} \& vector\+::operator-\/= (
+\begin{DoxyParamCaption}
+\item[{const {\bf vector} \&}]{rhs}
+\end{DoxyParamCaption}
+)}\hypertarget{classvector_a9229a3d50eae5ce544f81419d49540ce}{}\label{classvector_a9229a3d50eae5ce544f81419d49540ce}
+
+
+-\/= operator for two vectors 
+
+This operator substracts the rhs from the lhs. The result is stored into lhs variable of vector class. \index{vector@{vector}!operator/@{operator/}}
+\index{operator/@{operator/}!vector@{vector}}
+\subsubsection[{\texorpdfstring{operator/(const vector \&rhs) const }{operator/(const vector &rhs) const }}]{\setlength{\rightskip}{0pt plus 5cm}{\bf vector} vector\+::operator/ (
+\begin{DoxyParamCaption}
+\item[{const {\bf vector} \&}]{rhs}
+\end{DoxyParamCaption}
+) const}\hypertarget{classvector_af30f2db8e242b76c98e17bc93958aaf8}{}\label{classvector_af30f2db8e242b76c98e17bc93958aaf8}
+
+
+/ operator for two vectors 
+
+This operator divises the rhs by the lhs. The result is stored into a new variable of the vector class. \index{vector@{vector}!operator/=@{operator/=}}
+\index{operator/=@{operator/=}!vector@{vector}}
+\subsubsection[{\texorpdfstring{operator/=(const vector \&rhs)}{operator/=(const vector &rhs)}}]{\setlength{\rightskip}{0pt plus 5cm}{\bf vector} \& vector\+::operator/= (
+\begin{DoxyParamCaption}
+\item[{const {\bf vector} \&}]{rhs}
+\end{DoxyParamCaption}
+)}\hypertarget{classvector_a0f08508b116517889088c06c86f51a2b}{}\label{classvector_a0f08508b116517889088c06c86f51a2b}
+
+
+/= operator for two vectors 
+
+This operator divises the rhs by the lhs. The result is stored into lhs variable of the vector class. 
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+\hyperlink{vector_8hpp}{vector.\+hpp}\item 
+vector.\+cpp\end{DoxyCompactItemize}

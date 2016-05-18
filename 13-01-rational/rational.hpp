@@ -63,7 +63,7 @@ public:
          << rhs.counter 
          << "/" 
          << rhs.denominator
-         << "}";
+         << "]";
    }   
    
    /// multiply a rational by an integer
@@ -93,6 +93,9 @@ public:
       return *this;
    }
    
+   ///multiply a rational by a rational
+   //
+   /// This operator*= multiplies a rational value by a rational variable
    rational operator*=( const rational & rhs ){
       counter = counter + rhs.counter;
       denominator += rhs.denominator;

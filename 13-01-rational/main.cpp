@@ -16,7 +16,7 @@ TEST_CASE( "equality, equal" ){
 
 TEST_CASE( "equality, unequal" ){
    rational v( 1, 2 );
-   REQUIRE( ! ( v == rational( 1, 3 )) ); 
+   REQUIRE( ! ( v != rational( 1, 3 )) ); 
 }
 
 TEST_CASE( "constructor, two_parameters; reduction" ){
